@@ -1,0 +1,132 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.title {
+    margin: 0;
+    font-size: 20px;
+}
+
+.editButton {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: background-color 0.2s;
+}
+
+.editButton:hover {
+    background-color: #0056b3;
+}
+
+/* Empty State */
+.emptyState {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    border: 2px dashed #dee2e6;
+}
+
+.emptyStateIcon {
+    font-size: 48px;
+    margin-bottom: 16px;
+    opacity: 0.3;
+}
+
+.emptyStateTitle {
+    color: #6c757d;
+    margin-bottom: 8px;
+}
+
+.emptyStateDescription {
+    color: #adb5bd;
+}
+
+/* Fields List */
+.fieldsList {
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+    overflow: hidden;
+}
+
+.fieldItem {
+    padding: 16px 20px;
+    border-bottom: 1px solid #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.2s;
+}
+
+.fieldItem:last-child {
+    border-bottom: none;
+}
+
+.fieldItem:hover {
+    background-color: #f8f9fa;
+}
+
+.fieldContent {
+    flex: 1;
+}
+
+.fieldMeta {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.requiredBadge {
+    color: red;
+    font-size: 12px;
+}
+
+.typeBadge {
+    padding: 2px 6px;
+    background-color: #f0f0f0;
+    color: #666;
+    border-radius: 8px;
+    font-size: 11px;
+}
+
+.fieldValue {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+}
+
+.fieldValueEmpty {
+    font-size: 16px;
+    font-weight: normal;
+    font-style: italic;
+    color: #999;
+}
+
+/* Tip Section */
+.tip {
+    margin-top: 20px;
+    padding: 12px 16px;
+    background-color: #e7f3ff;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #0066cc;
+}
+
+.tip strong {
+    font-weight: 600;
+}

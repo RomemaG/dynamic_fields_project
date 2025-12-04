@@ -1,0 +1,187 @@
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+/* Header Section */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.title {
+    margin: 0;
+}
+
+.addButton {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.addButton:hover {
+    background-color: #218838;
+}
+
+.addButtonIcon {
+    font-size: 18px;
+}
+
+/* Empty State */
+.emptyState {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    border: 2px dashed #dee2e6;
+}
+
+.emptyStateIcon {
+    font-size: 48px;
+    margin-bottom: 16px;
+    opacity: 0.3;
+}
+
+.emptyStateTitle {
+    color: #6c757d;
+    margin-bottom: 8px;
+}
+
+.emptyStateDescription {
+    color: #adb5bd;
+    margin-bottom: 20px;
+}
+
+.emptyStateButton {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.emptyStateButton:hover {
+    background-color: #0056b3;
+}
+
+/* Fields List */
+.fieldsList {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.fieldCard {
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    transition: box-shadow 0.2s;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.fieldCard:hover {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Field Content */
+.fieldContent {
+    flex: 1;
+}
+
+.fieldHeader {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    gap: 8px;
+}
+
+.fieldName {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.requiredBadge {
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.typeBadge {
+    padding: 2px 8px;
+    background-color: #e7f3ff;
+    color: #0066cc;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.fieldDetails {
+    font-size: 14px;
+    color: #666;
+}
+
+.fieldOptions {
+    margin-top: 8px;
+}
+
+.fieldOrder {
+    margin-top: 4px;
+    color: #999;
+    font-size: 12px;
+}
+
+/* Field Actions */
+.fieldActions {
+    display: flex;
+    gap: 8px;
+}
+
+.editButton {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.editButton:hover {
+    background-color: #0056b3;
+}
+
+.deleteButton {
+    padding: 8px 16px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.deleteButton:hover {
+    background-color: #c82333;
+}
