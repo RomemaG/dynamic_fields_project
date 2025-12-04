@@ -36,12 +36,13 @@ A full-stack TypeScript application for managing dynamic custom fields in projec
 ### Backend Setup
 
 ```bash
-cd server
+cd backend
 npm install
 
 # Create .env file with your database credentials
 # DATABASE_URL=postgresql://user:password@localhost:5432/dbname
 
+cd src
 npm run dev
 ```
 
